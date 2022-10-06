@@ -1,5 +1,5 @@
 import { IncomingMessage } from 'http';
-import { Utils } from '../app/Utils/Utils'
+import { Utils } from '../../app/Utils/Utils'
 
 describe('Utils test suite', () => {
     test('getRequestPath valid request', () => {
