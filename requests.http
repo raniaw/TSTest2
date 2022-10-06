@@ -1,6 +1,5 @@
-POST http://localhost:8080/login HTTP/1.1
+POST http://localhost:8888/login 
 Content-Type: application/json
-
 {
     "username": "user1",
     "password": "pass"
@@ -8,7 +7,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:8080/users?user=user1 HTTP/1.1
+GET http://localhost:8888/users?user=user1 HTTP/1.1
 Authorization: f9g1wnbtvcu
 
 ###
