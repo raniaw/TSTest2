@@ -18,6 +18,24 @@
           "program": "${workspaceFolder}/node_modules/jest/bin/jest",
         },
         "stopOnEntry": true
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Jest Current Itest",
+        "program": "${workspaceFolder}/node_modules/.bin/jest",
+        "args": [
+          "--runTestsByPath",
+          "--config",
+          "jest.config.itest.ts"
+        ],
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen",
+        "disableOptimisticBPs": true,
+        "windows": {
+          "program": "${workspaceFolder}/node_modules/jest/bin/jest",
+        },
+        "stopOnEntry": true
       }
     ]
   }
